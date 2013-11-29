@@ -6,12 +6,13 @@ Based primarily from <https://github.com/rapid7/metasploit-framework/wiki/Settin
 
 # Requirements
 
+apt
 ruby_build
 rbenv
 
 # Todo
 
-1. Do a recipe to install from a tarball.
+Do a recipe to install from a tarball.
 
 # Attributes
 

@@ -7,7 +7,8 @@
 # All rights reserved - Do Not Redistribute
 #
 
-default['metasploit']['install_directory'] = "/opt"
-default['metasploit']['metasploit_directory'] = "#{default['metasploit']['install_directory']}/metaploit/"
-default['metasploit']['github_url'] = "https://github.com/rapid7/metasploit-framework.git"
+default['metasploit']['directory']               = "/opt/metasploit/"
 
+default['metasploit']['github']['url']           = "https://github.com/rapid7/metasploit-framework.git"
+default['metasploit']['github']['reference']     = "master"
+default['metasploit']['github']['clone_timeout'] = 1500
