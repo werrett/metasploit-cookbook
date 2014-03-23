@@ -2,12 +2,10 @@
 # Cookbook Name:: metasploit
 # Attributes:: metasploit
 #
-# Copyright (C) 2013 Jonathan Werrett
-# 
-# All rights reserved - Do Not Redistribute
+# Copyright (C) 2014 Jonathan Werrett
 #
 
-default['metasploit']['directory']               = "/opt/metasploit/"
+default['metasploit']['directory'] = "/opt/metasploit"
 
 default['metasploit']['github']['url']           = "https://github.com/rapid7/metasploit-framework.git"
 default['metasploit']['github']['reference']     = "master"

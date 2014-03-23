@@ -1,7 +1,7 @@
 name             'metasploit'
 maintainer       'Jonathan Werrett'
-maintainer_email 'jonathan@werrett.com.au'
+maintainer_email 'jonathan@werrett.hk'
 license          'All rights reserved'
-description      'Installs/Configures metasploit'
+description      'Installs and Configures Metasploit'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.1.0'
+version          '1.0.0'
