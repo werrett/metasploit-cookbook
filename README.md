@@ -1,7 +1,8 @@
 # Metasploit Cookbook
 
-Cookbook to download and install the latest version of [Metasploit](http://www.metasploit.com/) from Github
-based off [Rapid7's notes](https://github.com/rapid7/metasploit-framework/wiki/Setting-Up-a-Metasploit-Development-Environment).
+Cookbook to download and install the latest version of
+[Metasploit](http://www.metasploit.com/) from Github. Based off
+[Rapid7's notes](https://github.com/rapid7/metasploit-framework/wiki/Setting-Up-a-Metasploit-Development-Environment).
 
 # Requirements
 
@@ -51,15 +52,15 @@ cd metasploit-vm
 vagrant up --provision
 ...
 vagrant ssh
-mmsfconsole -v
+msfconsole -v
 msfconsole
 ```
 
 # Attributes
 
-  * directory - Where Metasploit will live
-  * url - Github URL to clone Metasploit from
-  * reference - Branch to clone from
+  * directory - Where Metasploit will live.
+  * url - Github URL to clone Metasploit from.
+  * reference - Branch to clone from.
   * clone_timeout - Cloning time out. Needs to be longish.
 
 
