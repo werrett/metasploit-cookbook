@@ -23,10 +23,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     chef.json = {
       'rbenv' => {
-        'rubies'  => ['1.9.3-p484'],
-        'global'  => '1.9.3-p484',
+        'rubies'  => ['1.9.3-p547'],
+        'global'  => '1.9.3-p547',
         'gems' => {
-          '1.9.3-p484' => [
+          '1.9.3-p547' => [
             { 'name'    => 'bundler' }
           ]
         }
