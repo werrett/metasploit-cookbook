@@ -62,6 +62,9 @@ bash "install_metasploit" do
     $RBENV_ROOT/shims/gem install pg -q --no-rdoc --no-ri -- --with-pg-config=/usr/bin/pg_config
 
     $RBENV_ROOT/shims/bundle install
+
+    # Update MSF
+    ./msfupdate
   EOH
   action :nothing
 
